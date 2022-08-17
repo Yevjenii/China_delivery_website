@@ -1,0 +1,5 @@
+.managers{
+    margin-top: 80px;
+    @include employers;
+    background: url('../img/managers_bg.jpg') center (center / cover) no-repeat;
+}

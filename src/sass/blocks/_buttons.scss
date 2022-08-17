@@ -1,0 +1,32 @@
+.button{
+    display: block;
+    background-color: var(--orange);
+    border: none;
+    border-radius: 25px;
+    font-size: 12px;
+    line-height: 45px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    width: 160px;
+    height: 45px;
+    transition: all .6s;
+    text-align: center;
+    &:hover{
+        background-color: #dc5238;
+        transform: scale(1.05);
+        box-shadow: 2px 2px 15px var(--orange);
+    }
+    &_promo{
+        display: block;
+        margin: 40px auto 0 auto;
+        width: 230px;
+        height: 57px;
+        border-radius: 30px;
+        font-size: 15px;
+        line-height: 17px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+}

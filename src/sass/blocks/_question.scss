@@ -1,0 +1,74 @@
+.question{
+    padding-top: 62px;
+    min-height: 438px;
+    background: url('../img/questions_bg.jpg') center (center / cover) no-repeat;
+    
+    &__wrapper{
+        width: 896px;
+        height: 297px;
+        margin: 0 auto;
+    }
+    &__header{
+        width: 100%;
+        height: 68px;
+        background-color: #25333c;
+    }
+    &__title{
+        padding-top: 15px;
+        font-size: 19px;
+        line-height: 22px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+        text-align: center;
+    }
+    &__subtitle{
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #ffffff;
+        text-align: center;
+    }
+    &__substrate{
+        background-color: rgba(255,255,255, 0.7);
+        height: 229px;
+    }
+    &__form{
+        padding-top: 17px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        input{
+            margin: 0 3px;
+            padding: 0 25px;
+            width: 267px;
+            height: 47px;
+            background-color: #ffffff;
+            border: 1px solid rgba(0,0,0,0.2);
+            border-radius: 25px;
+            font-size: 13px;
+            line-height: 24px;
+            font-weight: 300;
+            color: #616467;
+        }
+    }
+    &__textarea{
+        padding: 18px 24px;
+        resize: none;
+        margin-top: 6px;
+        width: 815px;
+        height: 73px;
+        background-color: #ffffff;
+        border: 1px solid rgba(0,0,0,0.2);
+        border-radius: 15px;
+        font-size: 13px;
+        font-weight: 300;
+        color: #616467;
+    }
+    &__button{
+        margin-top: 16px;
+        width: 180px;
+        height: 45px;
+    }
+
+}

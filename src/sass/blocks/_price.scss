@@ -1,0 +1,109 @@
+.price{
+    padding-top: 53px;
+    min-height: 555px;
+    &__wrapper{
+        margin-top: 35px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &-item{
+        
+        width: 267px;
+        height: 357px;
+        border: 1px solid #e9e9e9;
+        padding: 1px;
+        overflow: hidden;
+        &__title{
+            width: 100%;
+            height: 61px;
+            background-color: #25333c;
+            font-size: 16px;
+            line-height: 61px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #ffffff;
+            text-align: center;
+        }
+        &__img{
+            display: block;
+            margin: 14px auto 0 auto;
+
+        }
+        &__wrapper{
+            display: flex;
+            width: calc(200% + 20px);
+            
+        }
+        &__content{
+            padding-right: 20px;
+            width: 50%;
+            height: 290px;
+            transition: all .6s;
+            transform: translateX(-100%);
+            &_active{
+                transform: translateX(0%);
+                padding-right: 20px;
+            }
+        }
+        &__descr{
+            height: 290px;
+            width: 50%;
+            padding-left: 10px;
+            transition: all .6s;
+            transform: translateX(0%);
+            ul{
+                list-style-type: none;
+                li{
+                    margin-top: 10px;
+                    font-size: 14px;
+                    line-height: 20px;
+                    font-weight: 300; 
+                    color: #2e2e2e;
+                    
+                }
+            }
+            &_active{
+                transform: translateX(-100%);
+            }
+        }
+        &__back{
+            display: block;
+            margin: 25px auto 0 auto;
+            &:hover{
+                text-decoration: none;
+                color: #ffffff;
+            }
+        }
+        &__terms{
+            margin-top: 12px;
+            font-size: 14px;
+            line-height: 23px;
+            font-weight: 400;
+            text-transform: uppercase;
+            color: #2e2e2e;
+            text-align: center;
+        }
+        &__cost{
+            font-size: 28px;
+            line-height: 30px;
+            text-align: center;
+            color: var(--orange);
+        }
+        &__text{
+            margin-top: 19px;
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 300;
+            color: #2e2e2e;
+            text-align: center;
+        }
+        &__link{
+            margin: 25px auto 0 auto;
+            &:hover{
+                text-decoration: none;
+                color: #ffffff;
+            }
+        }
+        
+    }
+}

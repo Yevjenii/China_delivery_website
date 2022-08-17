@@ -1,0 +1,28 @@
+.reasons{
+    min-height: 620px;
+    padding: 55px 0;
+    &__wrapper{
+        margin-top: 37px;
+        display: grid;
+        grid-template-columns: repeat(3, 360px);
+        gap: 30px;
+    }
+    &__text{
+        margin-top: 30px;
+        &-title{
+            font-size: 18px;
+            line-height: 22px;
+            font-weight: 700;
+            color: var(--orange);
+            text-align: center;
+        }
+        &-descr{
+            margin-top: 10px;
+            font-size: 14px;
+            line-height: 22px;
+            font-weight: 300;
+            color: #3a3a3a;
+            text-align: justify;
+        }
+    }
+}
