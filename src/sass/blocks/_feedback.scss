@@ -11,7 +11,7 @@
     &__item{
         width: 360px;
         opacity: 0.6;
-        transition: all .4s;
+        transition: order, opacity, margin, transform .4s;
         &_active{
             opacity: unset;
             margin: 0 140px;
@@ -51,13 +51,13 @@
     }
     &__right{
         position: absolute;
-        right: 44%;
+        left: 60vw;
         top: 0px;
         cursor: pointer;
     }
     &__left{
         position: absolute;
-        left: 44%;
+        right: 60vw;
         top: 0px;
         cursor: pointer;
     }
