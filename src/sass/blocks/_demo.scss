@@ -1,0 +1,20 @@
+.demo{
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    background-color: #000;
+    &__title{
+        color: #FFF;
+        text-align: center;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 50px;
+    }
+    &__subtitle{
+        color: #FFF;
+        text-align: center;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
