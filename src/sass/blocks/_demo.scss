@@ -1,9 +1,10 @@
 .demo{
     height: 100px;
+    padding-top: 10px;
     position: fixed;
     width: 100%;
-    z-index: 2;
-    background-color: #000;
+    z-index: 10;
+    background-color: #252525;
     &__title{
         color: #FFF;
         text-align: center;
